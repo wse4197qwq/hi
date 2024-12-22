@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>威秀影城</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #5bc1fc;
+        }
+        header {
+            background-color: #43c2e2;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #43c2e2;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 700;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .movie {
+            display: flex;
+            margin-bottom: 20px;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .movie img {
+            width: 150px;
+            height: auto;
+        }
+        .movie-info {
+            padding: 15px;
+        }
+        .movie-info h3 {
+            margin: 0;
+        }
+        .movie-info p {
+            margin: 10px 0;
+        }
+        footer {
+            text-align: center;
+            background: #43c2e2;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+           /* 基本重設樣式 */
+           body, html {
+            margin: 0;
+            padding: 0;
+        }
+        /* 圖片區域樣式 */
+        .banner-image {
+            width: 50%;
+            max-height: 90vh; /* 控制最大高度 */
+            object-fit: cover; /* 保持圖片比例並填滿區域 */
+        }
+        .image-container {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        .image-container h1 {
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 3rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>威秀影城</h1>
+    </header>
+    <nav>
+        <a href="web.html">首頁</a>
+        <a href="upcoming.html">即將上映</a>
+        <a href="購票.html">購票</a>
+        <a href="關於我們.html">關於我們</a>
+    </nav>
+   
+    <body>
+        <!-- 圖片顯示區域 -->
+        <div class="image-container">
+            <img src="img/魔戒.jpg" alt="魔戒：洛汗人之戰" class="banner-image">
+            <h1>魔戒：洛汗人之戰</h1>
+        </div>
+    </body>
+    <footer>
+        <p>&copy; 2024 威秀影城. 版權所有.</p>
+    </footer>
+    <div style="text-align: center; margin: 20px 0;">
+        <!-- Facebook 按鈕 -->
+        <a href="https://www.facebook.com/vieshow/" target="_blank" 
+           style="display: inline-block; padding: 10px 20px; background-color: #1877F2; color: #FFFFFF; text-decoration: none; border-radius: 5px; font-size: 16px; font-weight: bold; margin-right: 10px;">
+            前往威秀影城 Facebook
+        </a>
+        <!-- Instagram 按鈕 -->
+        <a href="https://www.instagram.com/vieshow_cinemas/" target="_blank" 
+           style="display: inline-block; padding: 10px 20px; background-color: #E4405F; color: #FFFFFF; text-decoration: none; border-radius: 5px; font-size: 16px; font-weight: bold; margin-right: 10px;">
+            前往威秀影城 Instagram
+        </a>
+        <!-- YouTube 按鈕 -->
+        <a href="https://www.youtube.com/@vieshowmodmore" target="_blank" 
+           style="display: inline-block; padding: 10px 20px; background-color: #FF0000; color: #FFFFFF; text-decoration: none; border-radius: 5px; font-size: 16px; font-weight: bold;">
+            前往威秀影城 YouTube
+        </a>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <input type="email" name="email" placeholder="輸入電子郵件" required>
+            <br>
+            <button type="submit">提交</button>
+        </form>
+        
+    </div>    
+</body>
+</html>
+<a href="web.html">首頁</a>

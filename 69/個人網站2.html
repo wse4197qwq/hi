@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人介紹</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            background-image: url('img/realfake555.jpg'); /* 替換成背景圖片的路徑 */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin-top: 50px;
+        }
+
+        .profile-box {
+            background-color: #fff;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            width: 250px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(241, 241, 241, 0.1);
+        }
+
+        .profile-box img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+
+        .profile-box h3 {
+            margin: 10px 0;
+            font-size: 1.5rem;
+            color: #333;
+        }
+
+        .profile-box p {
+            color: #555;
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        .profile-box .name {
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            text-align: center;
+        }
+
+        footer form {
+            margin-top: 10px;
+        }
+
+        footer input {
+            padding: 10px;
+            font-size: 1rem;
+            width: 300px;
+            margin-bottom: 10px;
+        }
+
+        footer button {
+            padding: 10px 20px;
+            font-size: 1rem;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>個人介紹</h1>
+
+    <div class="container">
+        <div class="profile-box">
+            <img src="img/123.jpg" alt="Person 1">
+            <h3 class="name">李儲亮</h3>
+            <p><strong>生日：</strong>93/11/16</p>
+            <p><strong>興趣：</strong>"電腦"遊戲、棒球、韓團</p>
+            <p><strong>是個韓團豚，最愛金秋天</strong></p>
+        </div>
+    </div>
+    <footer>
+        <h4>聯絡我:</h4>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <input type="email" name="email" placeholder="輸入電子郵件" required>
+            <input type="email" name="email" placeholder="輸入訊息" required>
+            <br>
+            <button type="submit">提交</button>
+        </form>
+    </footer>
+</body>
+</html>

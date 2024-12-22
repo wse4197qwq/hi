@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>購買票數</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #43c2e2;
+            color: #fff;
+            padding: 15px;
+        }
+        .form-container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .form-container h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .form-container label {
+            display: block;
+            font-size: 1rem;
+            margin: 10px 0 5px;
+            color: #555;
+        }
+        .form-container input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .form-container button {
+            background-color: #43c2e2;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        .form-container button:hover {
+            background-color: #007BFF;
+        }
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+           
+        }
+        header {
+            background-color: #43c2e2;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #43c2e2;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 700;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>購買票數</h1>
+        <nav>
+    <a href="web.html">首頁</a>
+    <a href="upcoming.html">即將上映</a>
+    <a href="購票.html">購票</a>
+    <a href="關於我們.html">關於我們</a>
+</nav>
+    </header>
+    <div class="form-container">
+        <h2>獅子王：木法沙</h2>
+        <form action="https://www.vscinemas.com.tw/vsTicketing/ticketing/booking.aspx?cinemacode=34&txtSessionId=9143" method="post">
+            <label for="ticketCount">請選擇票數：</label>
+            <input type="number" id="ticketCount" name="ticketCount" min="1" max="10" required>
+            <button type="submit">確認購買</button>
+        </form>
+    </div>
+</body>
+</html>

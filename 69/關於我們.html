@@ -1,0 +1,197 @@
+<link rel="stylesheet" href="styles.css">
+<style>
+    body {
+        font-family: 'Noto Sans TC', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+    }
+    header {
+        background-color: #43c2e2;
+        color: #fff;
+        padding: 15px;
+        text-align: center;
+    }
+    .container {
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 0 20px;
+    }
+    .movie {
+        display: flex;
+        margin-bottom: 20px;
+        background: white;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .movie img {
+        width: 150px;
+        height: auto;
+    }
+    .movie-info {
+        padding: 15px;
+    }
+    .movie-info h3 {
+        margin: 0;
+    }
+    .movie-info p {
+        margin: 10px 0;
+    }
+    footer {
+        text-align: center;
+        background: #43c2e2;
+        color: white;
+        padding: 10px;
+        margin-top: 20px;
+    }
+</style>
+</head>
+<body>
+<header>
+    <h1>影城據點</h1>
+</header>
+<nav>
+    <a href="web.html">首頁</a>
+    <a href="upcoming.html">即將上映</a>
+    <a href="購票.html">購票</a>
+    <a href="關於我們.html">關於我們</a>
+</nav>
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>影城據點 | 關於我們</title>
+    <style>
+        /* 基本樣式重設 */
+        body, h1, h2, p {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            padding: 20px 0;
+            color: #f3f4f5;
+        }
+        /* 網頁容器 */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        /* 每個影城卡片 */
+        .card {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            margin: 15px;
+            width: 300px;
+            overflow: hidden;
+        }
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        .card-content {
+            padding: 15px;
+        }
+        .card h2 {
+            font-size: 20px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .card p {
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        .card a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+        .card a:hover {
+            text-decoration: underline;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1></h1>
+    <div class="container">
+        <!-- 台北信義威秀影城 -->
+        <div class="card">
+            <a href="xin.html" style="text-decoration: none; color: inherit;">
+            <img src="img/信義.jpg" alt="台北信義威秀影城">
+            <div class="card-content">
+                <h2>台北信義威秀影城</h2>
+                <p>地址：台北市信義區松壽路20號</p>
+                <p>電話：(02) 8780-5566</p>
+                <a href="#">Vie Show Cinemas Taipei Hsin Yi</a>
+            </div>
+        </div>
+        <!-- 台北京站威秀影城 -->
+        <div class="card">
+            <a href="jin.html" style="text-decoration: none; color: inherit;">
+            <img src="/img/京站.jpg" alt="台北京站威秀影城">
+            <div class="card-content">
+                <h2>台北京站威秀影城</h2>
+                <p>地址：台北市大同區市民大道一段209號5樓</p>
+                <p>電話：(02) 2552-5511</p>
+                <a href="#">Vie Show Cinemas Taipei Qsquare</a>
+            </div>
+        </div>
+        <!-- 板橋大遠百威秀影城 -->
+        <div class="card">
+            <img src="/img/大遠百.jpg" alt="板橋大遠百威秀影城">
+            <div class="card-content">
+                <h2>板橋大遠百威秀影城</h2>
+                <p>地址：新北市板橋區新站路28號10樓</p>
+                <p>電話：(02) 7738-6608</p>
+                <a href="#">Vie Show Cinemas Banqiao Mega City</a>
+            </div>
+        </div>
+        <!-- 中和環球威秀影城 -->
+        <div class="card">
+            <img src="/img/中和.jpg" alt="中和環球威秀影城">
+            <div class="card-content">
+                <h2>中和環球威秀影城</h2>
+                <p>地址：新北市中和區中山路三段122號4樓</p>
+                <p>電話：(02) 8226-6063</p>
+                <a href="#">Vie Show Cinemas Global Mall</a>
+            </div>
+        </div>
+        <!-- 林口 MITSUI OUTLET PARK 威秀影城 -->
+        <div class="card">
+            <img src="/img/林口.jpg" alt="林口MITSUI OUTLET PARK 威秀影城">
+            <div class="card-content">
+                <h2>林口 MITSUI OUTLET PARK 威秀影城</h2>
+                <p>地址：新北市林口區文化三路356號3樓</p>
+                <p>電話：(02) 2606-8099</p>
+                <a href="#">Vie Show Cinemas Linkou Mitsui Outlet Park</a>
+            </div>
+        </div>
+    </div>
+    <a href="個人網頁.html" target="_blank" 
+           style="display: inline-block; padding: 10px 20px; background-color: #FF0000; color: #FFFFFF; text-decoration: none; border-radius: 5px; font-size: 16px; font-weight: bold;">
+            前往112109133個人介紹網站
+        </a>
+        <a href="個人網站2.html" target="_blank" 
+        style="display: inline-block; padding: 10px 20px; background-color: #FF0000; color: #FFFFFF; text-decoration: none; border-radius: 5px; font-size: 16px; font-weight: bold;">
+         前往112111206個人介紹網站
+     </a>
+</body>
+</html>
+
+
